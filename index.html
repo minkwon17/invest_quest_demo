@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INVEST QUEST – AI 기반 투자 습관 개선 플랫폼</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Pretendard 대체로 Noto Sans KR + DM Serif Display 사용 -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== 헤더 (고정 네비) ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <span class="header__logo">INVEST QUEST</span>
+      <nav class="header__nav">
+        <a href="#about">소개</a>
+        <a href="#features">기능</a>
+        <a href="#demo">데모</a>
+        <a href="#points">심사 포인트</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== 1. HERO 섹션 ===== -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__eyebrow">AI Investment Coach</p>
+          <h1 class="hero__title">
+            투자 습관,<br />
+            <span class="highlight">AI와 함께</span><br />
+            바꿔보세요
+          </h1>
+          <p class="hero__desc">
+            INVEST QUEST는 투자 초보자를 위한 AI 기반 자기 점검 플랫폼입니다.<br />
+            내 투자 상태를 분석하고, 더 나은 투자 습관을 함께 만들어 갑니다.
+          </p>
+          <a href="#demo" class="btn btn--primary" id="demo-btn">
+            앱 데모 보기 →
+          </a>
+        </div>
+        <div class="hero__graphic">
+          <!-- 장식용 카드 오브젝트 -->
+          <div class="hero__card hero__card--1">
+            <span class="hero__card-label">포트폴리오 점수</span>
+            <span class="hero__card-value">78<small>점</small></span>
+            <span class="hero__card-tag good">양호</span>
+          </div>
+          <div class="hero__card hero__card--2">
+            <span class="hero__card-label">AI 인사이트</span>
+            <span class="hero__card-desc">"집중도가 높습니다.<br />분산 투자를 권장해요."</span>
+          </div>
+          <div class="hero__card hero__card--3">
+            <span class="hero__card-label">이번 달 목표</span>
+            <div class="progress-bar">
+              <div class="progress-bar__fill" style="width: 65%"></div>
+            </div>
+            <span class="hero__card-pct">65%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. 서비스 소개 섹션 ===== -->
+    <section class="about reveal" id="about">
+      <div class="container">
+        <p class="section-eyebrow">왜 INVEST QUEST인가요?</p>
+        <h2 class="section-title">투자 초보자가 겪는<br />진짜 문제들</h2>
+
+        <div class="about__grid">
+          <div class="about__problem">
+            <div class="about__problem-item">
+              <span class="problem-icon">😰</span>
+              <div>
+                <strong>뭘 샀는지도 모르겠어요</strong>
+                <p>충동 매매 후 포트폴리오를 제대로 파악하지 못하는 초보자가 많습니다.</p>
+              </div>
+            </div>
+            <div class="about__problem-item">
+              <span class="problem-icon">📉</span>
+              <div>
+                <strong>손실 이유를 모릅니다</strong>
+                <p>왜 손실이 났는지 분석하지 않고 감(感)에만 의존하게 됩니다.</p>
+              </div>
+            </div>
+            <div class="about__problem-item">
+              <span class="problem-icon">🔄</span>
+              <div>
+                <strong>같은 실수를 반복해요</strong>
+                <p>매매 기록과 피드백이 없어 행동 패턴을 인식하지 못합니다.</p>
+              </div>
+            </div>
+          </div>
+          <div class="about__solution">
+            <div class="solution-card">
+              <span class="solution-card__tag">INVEST QUEST 해결책</span>
+              <h3>AI가 내 투자 상태를<br />객관적으로 점검해 줍니다</h3>
+              <ul class="solution-list">
+                <li>✅ 포트폴리오·매매 패턴 자동 분석</li>
+                <li>✅ AI가 내 투자 습관의 취약점 짚어주기</li>
+                <li>✅ 목표 기반의 지속적인 피드백 루프</li>
+                <li>✅ 투자 기록 → 인사이트 → 습관 형성</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. 핵심 기능 섹션 ===== -->
+    <section class="features reveal" id="features">
+      <div class="container">
+        <p class="section-eyebrow">Core Features</p>
+        <h2 class="section-title">INVEST QUEST의<br />핵심 기능</h2>
+
+        <div class="features__grid">
+
+          <div class="feature-card">
+            <div class="feature-card__icon">📊</div>
+            <h3 class="feature-card__title">포트폴리오 분석</h3>
+            <p class="feature-card__desc">보유 자산 구성을 한눈에 파악하고, 집중도·분산도를 AI가 평가해 드립니다.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">📈</div>
+            <h3 class="feature-card__title">트레이딩 분석</h3>
+            <p class="feature-card__desc">매수·매도 타이밍 패턴을 분석해 감정적 매매 여부를 객관적으로 점검합니다.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🏆</div>
+            <h3 class="feature-card__title">성과 분석</h3>
+            <p class="feature-card__desc">수익률·손실률을 기간별로 추적하고, 시장 평균 대비 내 성과를 비교합니다.</p>
+          </div>
+
+          <div class="feature-card feature-card--accent">
+            <div class="feature-card__icon">🤖</div>
+            <h3 class="feature-card__title">AI 맞춤형 인사이트</h3>
+            <p class="feature-card__desc">내 투자 데이터를 기반으로 AI가 개인화된 피드백과 개선 방향을 제시합니다.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🎯</div>
+            <h3 class="feature-card__title">투자 목표 관리</h3>
+            <p class="feature-card__desc">단기·장기 목표를 설정하고, 달성률을 시각화하여 꾸준한 동기를 유지합니다.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">📝</div>
+            <h3 class="feature-card__title">매매일지 / 투자 기록</h3>
+            <p class="feature-card__desc">매매마다 이유와 감정을 기록하고, AI가 행동 패턴으로 분석해 습관을 개선합니다.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. 앱 데모 섹션 ===== -->
+    <section class="demo reveal" id="demo">
+      <div class="container">
+        <p class="section-eyebrow">Live Demo</p>
+        <h2 class="section-title">지금 바로<br />앱을 체험해보세요</h2>
+        <p class="demo__sub">아래 화면에서 실제 iOS 앱을 에뮬레이터로 체험하실 수 있습니다.</p>
+
+        <!-- iPhone 프레임 래퍼 -->
+        <div class="phone-wrapper">
+          <div class="phone-frame">
+            <div class="phone-frame__notch"></div>
+            <div class="phone-frame__screen">
+
+              <!-- ====================================================
+                   나중에 Appetize iframe 삽입할 위치
+                   아래 .demo-placeholder 전체를 삭제하고
+                   아래 주석처럼 iframe 태그로 교체하세요:
+
+                   <iframe
+                     src="https://appetize.io/embed/YOUR_APP_KEY?device=iphone13&scale=auto"
+                     width="100%"
+                     height="100%"
+                     frameborder="0"
+                     scrolling="no"
+                     style="border:0;"
+                   ></iframe>
+              ==================================================== -->
+
+              <div class="demo-placeholder">
+                <span class="demo-placeholder__icon">📱</span>
+                <p class="demo-placeholder__title">앱 데모 준비중</p>
+                <p class="demo-placeholder__desc">
+                  추후 이 영역에 iOS 앱 에뮬레이터가<br />연결됩니다
+                </p>
+              </div>
+
+            </div>
+            <div class="phone-frame__home"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== 5. 심사 포인트 / 기대 효과 섹션 ===== -->
+    <section class="points reveal" id="points">
+      <div class="container">
+        <p class="section-eyebrow">Why It Matters</p>
+        <h2 class="section-title">이 서비스가<br />특별한 이유</h2>
+
+        <div class="points__grid">
+
+          <div class="point-card">
+            <div class="point-card__num">01</div>
+            <h3>투자 초보자 전용 설계</h3>
+            <p>기존 투자 앱은 중급자 이상을 위한 정보 과부하 구조입니다. INVEST QUEST는 처음부터 초보자의 인지 부담을 최소화하도록 설계되었습니다.</p>
+          </div>
+
+          <div class="point-card">
+            <div class="point-card__num">02</div>
+            <h3>추천이 아닌 '자기 점검' 중심</h3>
+            <p>단순 종목 추천이 아닌, 내 투자 행동 패턴을 스스로 인식하고 개선할 수 있는 구조로 실질적인 역량 향상이 가능합니다.</p>
+          </div>
+
+          <div class="point-card">
+            <div class="point-card__num">03</div>
+            <h3>AI 기반 개인화 피드백</h3>
+            <p>모든 사용자에게 동일한 정보를 제공하는 것이 아닌, 개인 데이터 기반의 맞춤형 인사이트로 진짜 필요한 조언을 전달합니다.</p>
+          </div>
+
+          <div class="point-card">
+            <div class="point-card__num">04</div>
+            <h3>습관 형성 루프 구조</h3>
+            <p>기록 → AI 분석 → 인사이트 → 목표 조정의 순환 구조를 통해 일회성 앱 사용이 아닌 지속적인 투자 습관 형성을 유도합니다.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== 6. FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__logo">INVEST QUEST</span>
+      <p class="footer__desc">AI 기반 투자 습관 개선 플랫폼 — 심사위원용 데모 사이트</p>
+      <p class="footer__copy">© 2025 INVEST QUEST. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
